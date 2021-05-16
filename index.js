@@ -37,16 +37,16 @@ function parse(al, mapLocale){
 
 var newLocales = {
     // https://docs.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/dd997383(v=vs.100)
-    'zh-cht': 'zh-Hant',
-    'zh-chs': 'zh-Hans',
+    'zh-cht': 'zh-hant',
+    'zh-chs': 'zh-hans',
 
-    'zh-tw': 'zh-Hant',
-    'zh-hk': 'zh-Hant',
-    'zh-mo': 'zh-Hant',
+    'zh-tw': 'zh-hant',
+    'zh-hk': 'zh-hant',
+    'zh-mo': 'zh-hant',
 
     // https://gist.github.com/amake/0ac7724681ac1c178c6f95a5b09f03ce
-    'zh-sg': 'zh-Hans',
-    'zh-cn': 'zh-Hans'
+    'zh-sg': 'zh-hans',
+    'zh-cn': 'zh-hans'
 };
 
 function mapLocalesDefault(oldLocale) {
