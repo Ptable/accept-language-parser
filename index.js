@@ -40,13 +40,13 @@ var newLocales = {
     'zh-cht': 'zh-Hant',
     'zh-chs': 'zh-Hans',
 
-    'zh-tw': 'zh-Hant-TW',
-    'zh-hk': 'zh-Hant-HK',
-    'zh-mo': 'zh-Hant-MO',
+    'zh-tw': 'zh-Hant',
+    'zh-hk': 'zh-Hant',
+    'zh-mo': 'zh-Hant',
 
     // https://gist.github.com/amake/0ac7724681ac1c178c6f95a5b09f03ce
-    'zh-sg': 'zh-Hans-SG',
-    'zh-cn': 'zh-Hans-CN'
+    'zh-sg': 'zh-Hans',
+    'zh-cn': 'zh-Hans'
 };
 
 function mapLocalesDefault(oldLocale) {
