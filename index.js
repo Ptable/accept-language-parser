@@ -89,8 +89,8 @@ function pick(supportedLanguages, acceptLanguage, options){
             var supportedScript = supported[j].script ? supported[j].script.toLowerCase() : supported[j].script;
             var supportedRegion = supported[j].region ? supported[j].region.toLowerCase() : supported[j].region;
             if (langCode === supportedCode &&
-              (options.loose || !langScript || langScript === supportedScript) &&
-              (options.loose  || !langRegion || langRegion === supportedRegion)) {
+              (langCode !== "zh" || !langScript || langScript === supportedScript) &&
+              (langCode !== "zh" || !langRegion || langRegion === supportedRegion)) {
                 return supportedLanguages[j];
             }
         }
